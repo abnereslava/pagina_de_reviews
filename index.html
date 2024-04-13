@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews da loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="titulo">Nossos Reviews</h1> <!-- Texto antes do bloco -->
+        <hr>
+
+        <div class="bloco"> <!-- Bloco principal -->
+            <div class="imagem">
+                <img src="fotos/foto1.png" class="foto" id="foto">
+                <p class="aspas">“</p>
+            </div>
+            <p class="nome" id="nome">...</p>
+            <p class="profissao" id="profissao">...</p>
+            <p class="comentario" id="comentario">...</p>
+            <div class="botoes">
+                <button class="esquerda" id="esquerda" onclick="ir_esquerda()"><</button>
+                <button class="direita" id="direita" onclick="ir_direita()">></button>
+                <br><button class="random" id="random" onclick="ir_random()">Aleatório</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
